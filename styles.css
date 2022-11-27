@@ -18,7 +18,7 @@ a {
 .hero {
     color: white;
     background-color: #1f2937;
-    padding: 15px 40px 40px;
+    padding: 50px;
 }
 
 .logo {
@@ -30,6 +30,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 li {
@@ -39,4 +40,40 @@ li {
 .right-links {
     display:flex;
     gap: 25px;
+}
+
+.hero-content {
+    display: flex;
+    gap: 25px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1,
+p {
+    margin-bottom: 15px;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    flex: none;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 9px;
+    padding: 7px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+    border: none;
 }
