@@ -18,7 +18,7 @@ a {
 .hero {
     color: white;
     background-color: #1f2937;
-    padding: 50px;
+    padding: 15px 50px 70px;
 }
 
 .logo {
@@ -44,7 +44,7 @@ li {
 
 .hero-content {
     display: flex;
-    gap: 25px;
+    gap: 40px;
 }
 
 .hero-text p {
@@ -71,9 +71,50 @@ p {
 button {
     font-size: 18px;
     border-radius: 9px;
-    padding: 7px;
+    padding: 7px 25px;
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bolder;
     border: none;
+}
+
+
+/* INFORMATION */
+
+.random-information {
+    padding: 30px 50px 70px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.random-content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.random-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-image {
+    border: 2px solid #3882f6;
+    width: 170px;
+    height: 170px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.subtext  {
+    width: 170px;
+    text-align: center;
+    font-size: 18px;
 }
