@@ -18,7 +18,7 @@ a {
 .hero {
     color: white;
     background-color: #1f2937;
-    padding: 15px 50px 70px;
+    padding: 15px 90px 70px;
 }
 
 .logo {
@@ -47,6 +47,10 @@ li {
     gap: 40px;
 }
 
+.hero-text {
+    width: 450px;
+}
+
 .hero-text p {
     font-size: 18px;
     color: #e5e7eb;
@@ -55,17 +59,22 @@ li {
 h1,
 p {
     margin-bottom: 15px;
+    font-size: 48px;
 }
 
 .image {
-    width: 500px;
-    height: 200px;
+    height: 219px;
     background-color: darkgray;
     justify-content: center;
     align-items: center;
     display: flex;
     font-size: 18px;
-    flex: none;
+    flex: 1;
+}
+
+.image div {
+    text-align: center;
+    padding: 30px;
 }
 
 button {
@@ -117,4 +126,27 @@ button {
     width: 170px;
     text-align: center;
     font-size: 18px;
+}
+
+/* QUOTE */
+
+.quote {
+    background-color: #e5e7eb;
+    padding:  50px;
+}
+
+.quote figure {
+    width: 770px;
+    margin: auto;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+figcaption {
+    text-align: right;
+    padding-right: 21px;
 }
