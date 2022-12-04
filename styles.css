@@ -54,10 +54,11 @@ li {
 .hero-text p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 15px;
 }
 
-h1,
-p {
+h1
+{
     margin-bottom: 15px;
     font-size: 48px;
 }
@@ -144,9 +145,52 @@ blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
+    color: #1f2937;
 }
 
 figcaption {
     text-align: right;
     padding-right: 21px;
+    font-size: 20px;
+}
+
+/* CALL TO ACTION */
+
+.cta {
+    padding: 70px 90px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px 50px;
+    gap: 100px;
+}
+
+.cta-content strong {
+    font-size: 20px;
+}
+
+.cta-content p {
+    font-size: 18px;
+}
+
+.cta-container button {
+    border: 1px solid #f9faf8;
+    border-radius: 7px;
+    min-width: 120px;
+}
+
+/* FOOTER */
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
 }
